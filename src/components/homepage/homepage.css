@@ -1,6 +1,8 @@
 .homepage{
     margin-top: 5vw;
     z-index: 0;
+    overflow: hidden;
+
 }
 #carouselExampleIndicators{
     padding: 1vw;
