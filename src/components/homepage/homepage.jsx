@@ -2,6 +2,35 @@ import React from 'react';
 import '../homepage/homepage.css';
 import imgphotoh from '../homepage/himg.png';
 import readmore from '../homepage/Frame 1421.png';
+import Profileimg from './imgchar';
+
+import seemore from '../homepage/seemore.png';
+import pic1 from '../homepage/pic1.png';
+import pic2 from '../homepage/pic2.png';
+import pic3 from '../homepage/pic3.png';
+import pic4 from '../homepage/pic4.png';
+import pic5 from '../homepage/pic5.png';
+import pic6 from '../homepage/pic6.png';
+import pic7 from '../homepage/pic7.png';
+import pic8 from '../homepage/pic8.png';
+import pic9 from '../homepage/pic9.png';
+import pic10 from '../homepage/pic10.png';
+import pic11 from '../homepage/pic11.png';
+import pic12 from '../homepage/pic12.png';
+import pic13 from '../homepage/pic13.png';
+
+
+
+
+
+
+
+
+
+
+
+
+
 const Homepage = () => {
     return (
         <>
@@ -95,6 +124,36 @@ const Homepage = () => {
         <div className="leftspace sizeread" ><a href="" ><img src={readmore} alt="" /></a></div>
     </div>
 
+
+        <div className="galleryteamiarc">
+          <p>Gallery</p>
+          <div className="grouper">
+              <Profileimg  imgphoto={pic1} />
+              </div>
+              <div className="grouper">
+              <Profileimg  imgphoto={pic2} />
+              <Profileimg  imgphoto={pic3} />
+              </div>
+              <div className="grouper">
+              <Profileimg  imgphoto={pic4} />
+              <Profileimg  imgphoto={pic5} />
+              <Profileimg  imgphoto={pic6} />
+              </div>
+              <div className="grouper">
+              <Profileimg  imgphoto={pic7} />
+              <Profileimg  imgphoto={pic8} />
+              <Profileimg  imgphoto={pic9} />
+              <Profileimg  imgphoto={pic10} />
+              </div>
+              <div className="grouper">
+               <Profileimg  imgphoto={pic11} />
+               <Profileimg  imgphoto={pic12} />
+               <Profileimg  imgphoto={pic13} />
+               </div>
+               <div className="leftspace sizeread" ><a href="" ><img src={seemore} alt="" /></a></div>
+
+
+        </div>
         
 
 
