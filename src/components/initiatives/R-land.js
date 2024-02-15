@@ -6,7 +6,7 @@ import img2 from './images/Screenshot 2024-01-23 202552 1.png';
 function Rland() {
 
     return (
-        <><br/><br/><br/><br/><br/><br/><br/><br/>
+        <>
             <div className='in-back'>
                 <div className='in-container'>
                     <h1 className='in-title'>R-Land Memories</h1>

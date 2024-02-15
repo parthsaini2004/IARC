@@ -5,7 +5,7 @@ import img from './images/rainzo.png';
 function Rainzo() {
 
     return (
-        <><br/><br/><br/><br/><br/><br/><br/><br/>
+        <>
             <div className='in-back'>
                 <div className='in-container'>
                     <h1 className='in-title'>Raionzo</h1>

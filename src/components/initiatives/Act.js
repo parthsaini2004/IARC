@@ -6,7 +6,7 @@ import img2 from './images/Act-img-2.png'
 function Act() {
 
     return (
-        <><br /><br /><br /><br /><br /><br /><br /><br />
+        <>
             <div className='in-back'>
                 <div className='in-container'>
                     <h1 className='in-title'>Alumni Career Talk</h1>
