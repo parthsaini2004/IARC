@@ -1,5 +1,6 @@
 import React from 'react';
 import '../navbar/navbar.css';
+import {Link} from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -16,7 +17,7 @@ const Navbar = () => {
         <div className="collapse navbar-collapse special" id="navbarNav">
             <ul className="navbar-nav">
                 <li className="nav-item active padd highl">
-                    <a href="" className="nav-link">Home</a>
+                    <a href="/" className="nav-link">Home</a>
                 </li>
                 <li className="nav-item active padd">
                     <a href="" className="nav-link">Gallery</a>
@@ -39,14 +40,14 @@ const Navbar = () => {
     Initiatives
   </a>
   <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <li><a className="dropdown-item" href="#">Alumni Carrer Talk</a></li>
-    <li><a className="dropdown-item" href="#">Class Song</a></li>
-    <li><a className="dropdown-item" href="#">Mock Interview</a></li>
-    <li><a className="dropdown-item" href="#">R-Land Memoirs</a></li>
-    <li><a className="dropdown-item" href="#">Legacy Thoughts</a></li>
-    <li><a className="dropdown-item" href="#">Rainzo</a></li>
-    <li><a className="dropdown-item" href="#">Alumni Bigwigs</a></li>
-    <li><a className="dropdown-item" href="#">Alum Podcast</a></li>
+    <li><a className="dropdown-item" href="/act">Alumni Carrer Talk</a></li>
+    <li><a className="dropdown-item" href="/class-song">Class Song</a></li>
+    <li><a className="dropdown-item" href="/mock-interviews">Mock Interview</a></li>
+    <li><a className="dropdown-item" href="/r-land">R-Land Memoirs</a></li>
+    <li><a className="dropdown-item" href="/legacy-thoughts">Legacy Thoughts</a></li>
+    <li><a className="dropdown-item" href="/rainzo">Rainzo</a></li>
+    <li><a className="dropdown-item" href="/alumini-bigwigs">Alumni Bigwigs</a></li>
+    <li><a className="dropdown-item" href="/alumini-podcasts">Alum Podcast</a></li>
     
   </ul>
 
