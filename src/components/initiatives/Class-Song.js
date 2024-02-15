@@ -9,7 +9,7 @@ import img5 from './images/Snapinsta 3.png';
 function ClassSong() {
 
     return (
-        <><br/><br/><br/><br/><br/><br/><br/><br/>
+        <>
             <div className='in-back'>
                 <div className='in-container'>
                     <h1 className='in-title'>Class Song</h1>

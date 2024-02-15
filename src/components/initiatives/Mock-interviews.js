@@ -5,7 +5,7 @@ import img from './images/Snapinsta 2.png';
 function MockInterviews() {
 
     return (
-        <><br/><br/><br/><br/><br/><br/><br/><br/>
+        <>
             <div className='in-back'>
                 <div className='in-container'>
                     <h1 className='in-title'>Mock Interviews</h1>

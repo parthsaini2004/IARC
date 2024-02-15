@@ -5,7 +5,7 @@ import img from './images/Screenshot 2024-01-23 211044 1.png';
 function AluminiBigwigs() {
 
     return (
-        <><br/><br/><br/><br/><br/><br/><br/><br/>
+        <>
             <div className='in-back'>
                 <div className='in-container'>
                     <h1 className='in-title'>Alumni Bigwigs</h1>
