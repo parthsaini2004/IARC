@@ -7,7 +7,7 @@ const Navbar = () => {
         <>
 
         <div className="navmain" id="mainnav">
-       <nav className="navbar fixed-top navbar-expand-sm navbar-light bg-light backnav">
+       <nav className="navbar  navbar-expand-md navbar-light bg-light backnav">
        <div className="container">
         {/* <span className="navbar-brand mb-0 h1">Navbar</span> */}
 
@@ -56,7 +56,7 @@ const Navbar = () => {
                     <a href="" className="nav-link">Team</a>
                 </li>
                 <li className="nav-item active padd">
-                    <a href="" className="nav-link">About Us</a>
+                    <a href="" className="nav-link heightabout">About Us</a>
                 </li>
             </ul>
         </div>

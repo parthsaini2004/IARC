@@ -91,8 +91,8 @@ const Homepage = () => {
 
     <div className="aboutus">
         <p>About Us</p>
-        <div className='aboutustext center'>The Institute Alumni Relations Cell, affectionately referred to as IARC serves as a connecting bridge between the expansive alumni community and their alma mater, IIT Roorkee. Operating under the aegis of the Dean of Resources and Alumni Affairs (DORA), IIT Roorkee, IARC is dedicated to its mission of fostering and nurturing an enduring connection and relationship between our cherished alumni and their beloved alma mater. This bond is meticulously cultivated through a myriad of events and programmes that IARC conducts with unwavering dedication.</div>
-        <div className="leftspace" ><a href=""><img src={readmore} alt="" /></a></div>
+        <div className='aboutustext center '>The Institute Alumni Relations Cell, affectionately referred to as IARC serves as a connecting bridge between the expansive alumni community and their alma mater, IIT Roorkee. Operating under the aegis of the Dean of Resources and Alumni Affairs (DORA), IIT Roorkee, IARC is dedicated to its mission of fostering and nurturing an enduring connection and relationship between our cherished alumni and their beloved alma mater. This bond is meticulously cultivated through a myriad of events and programmes that IARC conducts with unwavering dedication.</div>
+        <div className="leftspace sizeread" ><a href="" ><img src={readmore} alt="" /></a></div>
     </div>
 
         
