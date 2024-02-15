@@ -45,3 +45,5 @@
   }
   .leftspace {margin-left: 70vw;padding-top: 5vw;}
   .leftspace a img:hover{opacity: 0.5;}
+
+  .sizeread a img{width: 20vw;height: auto;}
