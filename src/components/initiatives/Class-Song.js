@@ -18,14 +18,14 @@ function ClassSong() {
                        <a href='#'>  Class Song 2022: Class Song 2022 | Dil Dhadakne Do | IIT Roorkee</a><br />
                        <a href='#'>  Class Song 2021: Class Song 2021 | Memoir Film | Avicii - The Nights | IIT Roorkee</a><br />
                        <a href='#'>  Class Song 2019: Class Song 2019 | Sooraj Ki Baahon Mein | IIT Roorkee</a></p><br/><br/><br/>
-                       <div style={{display:'flex',justifyContent:'space-evenly'}}>
+                       <div style={{display:'flex',justifyContent:'space-evenly',flexWrap:'wrap'}}>
                         <img src={img1} alt='act-img-1'/>
                         <img src={img2} alt='act-img-1'/>
                         <img src={img3} alt='act-img-1'/>
                         <img src={img4} alt='act-img-1'/>
                         </div>
-                        <div style={{display:'flex',justifyContent:'space-evenly',padding:'100px 0'}}>
-                        <img src={img5}/>
+                        <div style={{display:'flex',justifyContent:'space-evenly',padding:'6.25vw 0'}}>
+                        <img style={{maxWidth:'60%'}} src={img5}/>
                         </div>
                         
                 </div>

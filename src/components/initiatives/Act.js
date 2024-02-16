@@ -19,9 +19,9 @@ function Act() {
                         <b>&#x2022;  Mr. Vikas Agarwal</b> (IRS CSE 2020)<br />
                         <b>&#x2022;  Mr. Hari Babu Srivastava</b> (Former Director General of DRDO, IITR’ 83 graduate)<br />
                         have graced these career talks, offering candid accounts of their personal and professional experiences, replete with triumphs and setbacks. The impact of these talks is immeasurable, guiding students toward a nuanced understanding of the many career options available and igniting the flames of inspiration and direction in those still navigating their career paths.</p><br /><br /><br />
-                    <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-                        <img src={img1} alt='act-img-1' />
-                        <img src={img2} alt='act-img-1' />
+                    <div style={{ display: 'flex', justifyContent: 'space-evenly',maxWidth:'100%' ,flexWrap:'wrap'}}>
+                        <img style={{maxWidth:'60%',margin:'10px'}} src={img1} alt='act-img-1' />
+                        <img style={{maxWidth:'60%', margin:'10px'}} src={img2} alt='act-img-1' />
                     </div>
                 </div>
             </div>
