@@ -53,7 +53,7 @@ const Navbar = () => {
 
                 </li>
                 <li className="nav-item active padd">
-                    <a href="" className="nav-link">Team</a>
+                    <a href="/team" className="nav-link">Team</a>
                 </li>
                 <li className="nav-item active padd">
                     <a href="" className="nav-link heightabout">About Us</a>

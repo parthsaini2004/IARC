@@ -11,6 +11,7 @@ import ClassSong from './components/initiatives/Class-Song';
 import LegacyThoughts from './components/initiatives/LegacyThoughts';
 import AluminiPodcasts from './components/initiatives/AluminiPodcast';
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
+import { MeetTeam } from './components/MeetTeam/MeetTeam';
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
           <Route path='/alumini-bigwigs' element={<AluminiBigwigs />} />
           <Route path='/legacy-thoughts' element={<LegacyThoughts />} />
           <Route path='/alumini-podcasts' element={<AluminiPodcasts />} />
-
+          <Route path='/team' element={<MeetTeam />} />
 
         </Routes>
       </BrowserRouter>

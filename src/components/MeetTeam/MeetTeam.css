@@ -1,0 +1,61 @@
+.teamCard{
+    width: 214px;
+    height: 267px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px 0px #00000040;
+    z-index: -1;
+    position:relative;
+}
+.cardbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:10vw;
+    flex-wrap: wrap;
+}
+.teamm{
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    margin: 3vw;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    /* height: 50vw; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1vw;
+    padding-bottom: 3vw;
+}
+.teamm p{padding-top: 3vw;font-size: 4vw;color: #094D7A;font-family: Raleway;font-weight: 600}
+
+.nameCard{
+    z-index: 100;
+    position: absolute;
+    bottom: 0px;
+    width: 214px;
+    height: 57px;
+    border-radius: 12px;
+    background: #183059;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.nameCard h2{
+    /* font-family: Roboto; */
+font-size: 18px;
+font-weight: 700;
+/* line-height: 23px; */
+/* letter-spacing: 0em; */
+/* text-align: center; */
+}
+.nameCard h3{
+    /* font-family: Roboto; */
+font-size: 12px;
+font-weight: 100;
+/* line-height: 15px; */
+/* letter-spacing: 0em;
+text-align: center; */
+}
