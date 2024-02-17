@@ -19,9 +19,10 @@ import pic11 from '../homepage/pic11.png';
 import pic12 from '../homepage/pic12.png';
 import pic13 from '../homepage/pic13.png';
 
-
-
-
+import image1 from '../MeetTeam/teamImages/image1.png'
+import image2 from '../MeetTeam/teamImages/image2.png'
+import image3 from '../MeetTeam/teamImages/image3.png'
+import othermem from './otherteam.png';
 
 
 
@@ -154,9 +155,13 @@ const Homepage = () => {
 
 
         </div>
-        
+        <div className="teamm">
+        <p>Meet the Team</p>
+        <div className="cardbox"><div className='teamCard'><img src={image1} /><div className="nameCard"><h2>Pawanhaari Mittal</h2><h3>Secretary</h3></div></div></div>
 
-
+        <div className="cardbox"><div className='teamCard'><img src={image2} /><div className="nameCard"><h2>Sanya Singh</h2><h3>Additional Secretary</h3></div></div><div className='teamCard'><img src={image3} /><div className="nameCard"><h2>Anand Seshadri</h2><h3>Additional Secretary</h3></div></div></div>
+        <div className="leftspace sizeread" ><a href="/team" ><img src={othermem} alt="" /></a></div>
+        </div>
         </div>
 
       
