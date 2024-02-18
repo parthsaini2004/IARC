@@ -24,7 +24,7 @@ function Slider() {
                     
                     navigation
                     pagination={{ clickable: true }}
-                    scrollbar={{ draggable: true }}
+                    // scrollbar={{ draggable: true }}
                     style={{paddingBottom:'50px'}}
                 >
                     <SwiperSlide> <iframe width="304" src="https://www.youtube.com/embed/EUei7-LIP7c" title="Udd Gaye | Hasta La Vista - Class of 2018 | IIT Roorkee" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

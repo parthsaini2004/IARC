@@ -6,7 +6,7 @@ import navTop from './Frame 1411.png';
 const Navbar = () => {
     return (
         <>
-        <img src={navTop} className='navTop' style={{width:'100%',height:'5.20vw'}}/>
+        <img src={navTop} className='navTop'/>
         <div className="navmain" id="mainnav">
        <nav className="navbar  navbar-expand-md navbar-light bg-light backnav">
        <div className="container">
