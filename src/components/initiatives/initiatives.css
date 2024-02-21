@@ -28,10 +28,10 @@
     width: 100%;
     padding: 2rem 0;
 }
-/* .class-song-links{
+.class-song-links{
     color: grey;
     
-} */
+}
 a.class-song-links:hover, a.class-song-links:active {color: darkgrey;}
 @media only screen and (max-width:1000px) {
     .in-content{
