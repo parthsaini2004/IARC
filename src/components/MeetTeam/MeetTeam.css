@@ -11,7 +11,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap:10vw;
+    gap:12vw;
     flex-wrap: wrap;
 }
 .teamm{
@@ -26,8 +26,11 @@
     justify-content: center;
     border-radius: 1vw;
     padding-bottom: 3vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    flex-wrap: wrap;
 }
-.teamm p{padding-top: 3vw;font-size: 4vw;color: #094D7A;font-family: Raleway;font-weight: 600}
+.teamm p{padding-top: 1.5vw;font-size: 70px;color: #094D7A;font-family: Raleway;font-weight: 600}
 
 .nameCard{
     z-index: 100;
@@ -44,18 +47,46 @@
     justify-content: center;
 }
 .nameCard h2{
-    /* font-family: Roboto; */
+    padding-top: 7px;
+    font-family: Roboto;
 font-size: 18px;
-font-weight: 700;
+/* font-weight: 700; */
 /* line-height: 23px; */
 /* letter-spacing: 0em; */
 /* text-align: center; */
 }
 .nameCard h3{
-    /* font-family: Roboto; */
-font-size: 12px;
+    font-family: Roboto;
+font-size: 14px;
 font-weight: 100;
 /* line-height: 15px; */
 /* letter-spacing: 0em;
 text-align: center; */
+}
+
+/*for hover effects*/
+.cardbox h5{
+    display: none;
+    font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+text-align: center;
+}
+.cardbox conn{
+    display: none;
+}
+.cardbox nmc{
+    transition: height 0.3s linear;
+    /* transition: background-color 0.3s linear; */
+}
+.cardbox:hover nmc{
+    height: 267px;
+    background-color: rgba(84, 102, 158, 0.381);
+}
+.cardbox:hover h5{
+    display: inline;
+}
+.cardbox:hover conn{
+    display: flex;
+    gap:5px;
 }

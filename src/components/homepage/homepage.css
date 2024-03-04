@@ -51,3 +51,8 @@
   .galleryteamiarc div{width: auto;align-items: center;justify-content: center;}
   .galleryteamiarc p{justify-content: center;text-align: center;font-family: raleway;font-size: 4vw;font-weight: 600;color: #094D7A;padding-top: 3vw;padding-bottom: 2vw;}
   .galleryteamiarc{margin: 3vw; box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);margin-top: 3vw;border-radius: 1vw;padding-bottom: 5vw;}
+
+  .hmcards{
+    display: flex;
+    gap: 20vw !important;
+  }

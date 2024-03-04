@@ -23,6 +23,8 @@ import image1 from '../MeetTeam/teamImages/image1.png'
 import image2 from '../MeetTeam/teamImages/image2.png'
 import image3 from '../MeetTeam/teamImages/image3.png'
 import othermem from './otherteam.png';
+import linked from '../MeetTeam/teamImages/LinkedIn.png'
+import insta from '../MeetTeam/teamImages/Instagram.png'
 
 
 
@@ -157,10 +159,10 @@ const Homepage = () => {
         </div>
         <div className="teamm">
         <p>Meet the Team</p>
-        <div className="cardbox"><div className='teamCard'><img src={image1} /><div className="nameCard"><h2>Pawanhaari Mittal</h2><h3>Secretary</h3></div></div></div>
+        <div className="cardbox"><div className='teamCard'><img src={image1} /><nmc className="nameCard"><h2>Pawanhaari Mittal</h2><h3>Secretary</h3><h5>email</h5><h5>+91 7728986489</h5><conn><img src={linked} /><img src={insta}/></conn></nmc></div></div>
 
-        <div className="cardbox"><div className='teamCard'><img src={image2} /><div className="nameCard"><h2>Sanya Singh</h2><h3>Additional Secretary</h3></div></div><div className='teamCard'><img src={image3} /><div className="nameCard"><h2>Anand Seshadri</h2><h3>Additional Secretary</h3></div></div></div>
-        <div className="leftspace sizeread" ><a href="/team" ><img src={othermem} alt="" /></a></div>
+        <div className="cardbox hmcards"><div className='teamCard'><img src={image2} /><div className="nameCard"><h2>Sanya Singh</h2><h3>Additional Secretary</h3></div></div><div className='teamCard'><img src={image3} /><div className="nameCard"><h2>Anand Seshadri</h2><h3>Additional Secretary</h3></div></div></div>
+        <div className="leftspace sizeread othermemm" ><a href="/team" ><img src={othermem} alt="" /></a></div>
         </div>
         </div>
 
