@@ -69,54 +69,54 @@ const Homepage = () => {
 
 
 {/*             
-<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner ">
-    <div class="carousel-item active">
+<div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
+  <div className="carousel-inner ">
+    <div className="carousel-item active">
        
-      <img src={imgphotoh} class="d-block w-100" alt="..." />
+      <img src={imgphotoh} className="d-block w-100" alt="..." />
     </div>
-    <div class="carousel-item">
-      <img src={imgphotoh}  class="d-block w-100" alt="..." />
+    <div className="carousel-item">
+      <img src={imgphotoh}  className="d-block w-100" alt="..." />
     </div>
-    <div class="carousel-item">
-      <img src={imgphotoh}  class="d-block w-100" alt="..." />
+    <div className="carousel-item">
+      <img src={imgphotoh}  className="d-block w-100" alt="..." />
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
+  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
+  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Next</span>
   </button>
 </div> */}
 
 
-<div id="carouselExampleIndicators" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+<div id="carouselExampleIndicators" className="carousel slide">
+  <div className="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src={imgphotoh} class="d-block w-100" alt="..." />
+  <div className="carousel-inner">
+    <div className="carousel-item active">
+      <img src={imgphotoh} className="d-block w-100" alt="..." />
     </div>
-    <div class="carousel-item">
-      <img src={imgphotoh} class="d-block w-100" alt="..." />
+    <div className="carousel-item">
+      <img src={imgphotoh} className="d-block w-100" alt="..." />
     </div>
-    <div class="carousel-item">
-      <img src={imgphotoh}  class="d-block w-100" alt="..." />
+    <div className="carousel-item">
+      <img src={imgphotoh}  className="d-block w-100" alt="..." />
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
+  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
+  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Next</span>
   </button>
 </div>
 
@@ -164,6 +164,207 @@ const Homepage = () => {
         <div className="cardbox hmcards"><div className='teamCard'><img src={image2} /><div className="nameCard"><h2>Sanya Singh</h2><h3>Additional Secretary</h3></div></div><div className='teamCard'><img src={image3} /><div className="nameCard"><h2>Anand Seshadri</h2><h3>Additional Secretary</h3></div></div></div>
         <div className="leftspace sizeread othermemm" ><a href="/team" ><img src={othermem} alt="" /></a></div>
         </div>
+
+     
+<div className="container my-5 leftfoot">
+
+  <footer
+          className="bgfooter text-center text-lg-start text-white"
+          
+          >
+           
+
+    <div className="container p-4 pb-0">
+
+      <section className="">
+
+        <div className="row">
+
+          <div className="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 className="text-uppercase">FOOTER CONTENT</h5>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Molestiae modi cum ipsam ad, illo possimus laborum ut
+              reiciendis obcaecati. Ducimus, quas. Corrupti, pariatur eaque?
+              Reiciendis assumenda iusto sapiente inventore animi?
+            </p>
+          </div>
+
+
+
+          <div className="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 className="text-uppercase">Links</h5>
+
+            <ul className="list-unstyled mb-0">
+              <li>
+                <a href="#!" className="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" className="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" className="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" className="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+
+
+          <div className="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 className="text-uppercase">Links</h5>
+
+            <ul className="list-unstyled mb-0">
+              <li>
+                <a href="#!" className="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" className="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" className="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" className="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+
+
+
+          <div className="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 className="text-uppercase">Links</h5>
+
+            <ul className="list-unstyled mb-0">
+              <li>
+                <a href="#!" className="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" className="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" className="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" className="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+
+
+
+          <div className="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 className="text-uppercase">Links</h5>
+
+            <ul className="list-unstyled mb-0">
+              <li>
+                <a href="#!" className="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" className="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" className="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" className="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+      </section>
+    
+
+      <hr className="mb-4" />
+
+
+      <section className="">
+        <p className="d-flex justify-content-center align-items-center">
+          <span className="me-3">Register for free</span>
+          <button type="button" className="btn btn-outline-light btn-rounded">
+            Sign up!
+          </button>
+        </p>
+      </section>
+
+
+      <hr className="mb-4" />
+
+
+      <section className="mb-4 text-center">
+
+        <a
+           className="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button"
+           ><i className="fab fa-facebook-f"></i
+          ></a>
+
+
+        <a
+           className="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button"
+           ><i className="fab fa-twitter"></i
+          ></a>
+
+
+        <a
+           className="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button"
+           ><i className="fab fa-google"></i
+          ></a>
+
+
+        <a
+           className="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button"
+           ><i className="fab fa-instagram"></i
+          ></a>
+
+
+        <a
+           className="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button"
+           ><i className="fab fa-linkedin-in"></i
+          ></a>
+
+
+        <a
+           className="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button"
+           ><i className="fab fa-github"></i
+          ></a>
+      </section>
+
+    </div>
+
+
+
+    {/* <div
+         className="text-center p-3 bgfooter bgfoott"
+         
+         >
+        
+      © 2020 Copyright:
+      <a className="text-white" href="https://mdbootstrap.com/"
+         >MDBootstrap.com</a
+        > */}
+    {/* </div> */}
+    
+  </footer>
+ 
+</div>
+
+
         </div>
 
       

@@ -32,12 +32,14 @@ const Navbar = () => {
                         <li><a href="" className="dropdown-item">hello</a></li>
                     </ul> */}
                     <a
-    className=" dropdown-toggle paddt"
+    className="  paddt"
+    
     type="button"
     id="dropdownMenuButton"
     data-mdb-toggle="dropdown"
     aria-expanded="false"
   >
+    {/* className=" dropdown-toggle paddt" */}
     Initiatives
   </a>
   <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
