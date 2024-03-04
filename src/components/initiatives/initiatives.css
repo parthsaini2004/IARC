@@ -33,7 +33,7 @@
     
 }
 a.class-song-links:hover, a.class-song-links:active {color: darkgrey;}
-@media only screen and (max-width:1000px) {
+@media only screen and (max-width:800px) {
     .in-content{
         font-size: 3.75vw;
         line-height: 4.05vw;

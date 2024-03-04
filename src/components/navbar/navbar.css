@@ -35,3 +35,8 @@
 .navTop{
   width: 100%;
 }
+@media only screen and (max-width:600px){
+  .navTop{
+    min-height: 3.6rem;
+  }
+}
