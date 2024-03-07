@@ -3,6 +3,8 @@
 // import {Link} from 'react-router-dom';
 import navTop from './Frame 1411.png';
 
+
+
 // const Navbar = () => {
 //     return (
 //         <>
@@ -169,6 +171,7 @@ function Navbar() {
         <div className="navmain" id="mainnav">
         <nav className="navbar navbar-expand-lg fixed-top">
             <div className="container">
+                
                 <a className="navbar-brand" href="#">
                 {/* <img className="logo" src={navTop} alt="logo..." /> */}
                 </a>
@@ -178,7 +181,8 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li className="nav-item ">
-                            <a smooth={true} duration={100} to="welcome" className="nav-link" href="/" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Home <span className="sr-only"></span></a>
+                            {/* <a smooth={true} duration={100} to="welcome" className="nav-link" href="/" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Home <span className="sr-only"></span></a> */}
+                            <a smooth={true} duration={100}  className="dropdown-item" href="/" >Home</a>
                         </li>
                         <li className="nav-item">
                             <a smooth={true} duration={100} to="gallery" offset={-110} className="nav-link" href="#" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Gallery</a>
@@ -199,13 +203,15 @@ function Navbar() {
    </ul>
                         </li>
                         <li className="nav-item">
-                            <a  smooth={true} duration={100} to="teamm" offset={-110} className="nav-link" href="/team" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Team</a>
+                            {/* <a  smooth={true} duration={100} to="teamm" offset={-110} className="nav-link" href="/teamm" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Team</a> */}
+                            <a smooth={true} duration={100}  className="dropdown-item" href="/team" >Team</a>
                         </li>
                         {/* <li className="nav-item">
                             <Link smooth={true} duration={100} to="gallery" offset={-110} className="nav-link" href="#" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Gallery</Link>
                         </li> */}
                         <li className="nav-item">
-                            <a smooth={true} duration={100} to="contact" offset={-110} className="nav-link" href="#" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">About Us</a>
+                        
+                            <a smooth={true} duration={100}  className="dropdown-item" href="/aboutus" >About Us</a>
                         </li>
                     </ul>
                 </div>
