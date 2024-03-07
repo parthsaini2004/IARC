@@ -1,5 +1,5 @@
 .homepage{
-    margin-top: 5vw;
+    /* margin-top: 5vw; */
     z-index: 0;
     overflow: hidden;
 
@@ -96,3 +96,12 @@
     display: flex;
     gap: 20vw !important;
   }
+
+/* 
+@media (max-width: 768px){
+   .homepage{margin: 0vw;}
+    
+    } */
+
+
+    
