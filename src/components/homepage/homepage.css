@@ -1,7 +1,8 @@
 .homepage{
-    /* margin-top: 5vw; */
+    margin-top: 2vw;
     z-index: 0;
     overflow: hidden;
+    position: relative;
 
 }
 #carouselExampleIndicators{
