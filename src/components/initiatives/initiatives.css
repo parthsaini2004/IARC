@@ -28,7 +28,12 @@
     width: 100%;
     padding: 2rem 0;
 }
-@media only screen and (max-width:1000px) {
+.class-song-links{
+    color: grey;
+    
+}
+a.class-song-links:hover, a.class-song-links:active {color: darkgrey;}
+@media only screen and (max-width:800px) {
     .in-content{
         font-size: 3.75vw;
         line-height: 4.05vw;
@@ -36,5 +41,9 @@
     .in-title{
         font-size: 6.7vw;
         line-height: 6.6vw;
+    }
+    .class-song-links{
+        display: block;
+        margin: 6px 0;
     }
 }
