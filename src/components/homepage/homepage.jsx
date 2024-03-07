@@ -159,9 +159,9 @@ const Homepage = () => {
         </div>
         <div className="teamm">
         <p>Meet the Team</p>
-        <div className="cardbox"><div className='teamCard'><img src={image1} /><nmc className="nameCard"><h2>Pawanhaari Mittal</h2><h3>Secretary</h3><h5>email</h5><h5>+91 7728986489</h5><conn><img src={linked} /><img src={insta}/></conn></nmc></div></div>
+        <div className="cardbox"><div className='teamCard'><img className='hmimg' src={image1} /><nmc className="nameCard namhm"><h2>Pawanhaari Mittal</h2><h3>Secretary</h3><h5>email</h5><h5>+91 7728986489</h5><conn><img src={linked} /><img src={insta}/></conn></nmc></div></div>
 
-        <div className="cardbox hmcards"><div className='teamCard'><img src={image2} /><div className="nameCard"><h2>Sanya Singh</h2><h3>Additional Secretary</h3></div></div><div className='teamCard'><img src={image3} /><div className="nameCard"><h2>Anand Seshadri</h2><h3>Additional Secretary</h3></div></div></div>
+        <div className="cardbox hmcards"><div className='teamCard'><img className='hmimg' src={image2} /><nmc className="nameCard namhm"><h2>Sanya Singh</h2><h3>Additional Secretary</h3><h5>email</h5><h5>phone number</h5><conn><img src={linked} /><img src={insta}/></conn></nmc></div><div className='teamCard'><img className='hmimg' src={image3} /><nmc className="nameCard namhm"><h2>Anand Seshadri</h2><h3>Additional Secretary</h3><h5>email</h5><h5>phone number</h5><conn><img src={linked} /><img src={insta}/></conn></nmc></div></div>
         <div className="leftspace sizeread othermemm" ><a href="/team" ><img src={othermem} alt="" /></a></div>
         </div>
 

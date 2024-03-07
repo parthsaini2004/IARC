@@ -96,3 +96,28 @@
     display: flex;
     gap: 20vw !important;
   }
+  .othermemm{
+    margin-left: 50vw !important;
+  }
+  .othermemm img{
+        width: 25vw !important;
+  }
+  .hmimg{
+    width: 270px;
+    height: 336.86px;
+    padding-bottom: 69.86px;
+  }
+  .namhm{
+    width: 270px !important;
+
+  }
+
+  @media only screen and (max-width: 800px) {
+    .othermemm{
+        margin-left: 30vw;
+    }
+    .othermemm img{
+        margin-left: !important;
+        width : 40vw !important;
+    }
+    }

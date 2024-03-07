@@ -30,7 +30,7 @@
     padding-right: 1.5vw;
     flex-wrap: wrap;
 }
-.teamm p{padding-top: 1.5vw;font-size: 70px;color: #094D7A;font-family: Raleway;font-weight: 600}
+.teamm p{padding-top: 1vw;font-size: 5vw;color: #094D7A;font-family: Raleway;font-weight: 600}
 
 .nameCard{
     z-index: 100;
