@@ -31,7 +31,7 @@ nav{
     margin-left: 0.75rem;
     margin-right: 0.75rem;
     color: black ;
-    font-weight: 700;
+    /* font-weight: 700; */
   }
   
   .navbar-brand{
@@ -74,7 +74,7 @@ nav{
 
 .navbar-nav li{
     padding: 0vw 2vw!important;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     font-family: raleway;
     
     

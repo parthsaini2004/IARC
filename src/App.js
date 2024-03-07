@@ -13,6 +13,8 @@ import AluminiPodcasts from './components/initiatives/AluminiPodcast';
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 import { MeetTeam } from './components/MeetTeam/MeetTeam';
 import Contactus from './components/contactus/contactus';
+import AboutUs from './components/AboutUs/AboutUs';
+import Gallery from './components/Gallery/Gallery';
 function App() {
   return (
     <>
@@ -23,6 +25,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Homepage />} />
           <Route path='/act' element={<Act />} />
+          <Route path='/aboutus' element={<AboutUs />} />
+          <Route path='/gallery' element={<Gallery />} />
           <Route path='/mock-interviews' element={<MockInterviews />} />
           <Route path='/class-song' element={<ClassSong />} />
           <Route path='/rainzo' element={<Rainzo />} />
