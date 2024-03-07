@@ -12,12 +12,13 @@ import LegacyThoughts from './components/initiatives/LegacyThoughts';
 import AluminiPodcasts from './components/initiatives/AluminiPodcast';
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 import { MeetTeam } from './components/MeetTeam/MeetTeam';
-
+import Contactus from './components/contactus/contactus';
 function App() {
   return (
     <>
       <BrowserRouter>
         <Navbar />
+  
 
         <Routes>
           <Route path='/' element={<Homepage />} />
@@ -32,6 +33,7 @@ function App() {
           <Route path='/team' element={<MeetTeam />} />
 
         </Routes>
+        <Contactus />
       </BrowserRouter>
     </>
   );
