@@ -171,6 +171,7 @@ function Navbar() {
         <div className="navmain" id="mainnav">
         <nav className="navbar navbar-expand-lg fixed-top">
             <div className="container">
+                
                 <a className="navbar-brand" href="#">
                 {/* <img className="logo" src={navTop} alt="logo..." /> */}
                 </a>
