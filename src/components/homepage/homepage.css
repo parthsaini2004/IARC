@@ -122,18 +122,20 @@
   }
   .hmtcard{
     height: 336.86px !important;
+    width: 270px !important;
+
   }
   .cardbox nmchome{
     transition: height 0.3s linear;
     /* transition: background-color 0.3s linear; */
 }
-.cardbox:hover nmchome{
+.cardbox .teamCard:hover nmchome{
     height: 336.86px;
     background-color: rgba(84, 102, 158, 0.381);
 }
   @media only screen and (max-width: 800px) {
     .othermemm{
-        margin-left: 30vw;
+        margin-left: 30vw !important;
     }
     .othermemm img{
         margin-left: 2vw!important;
