@@ -24,7 +24,7 @@ nav{
   }
   
   nav ul li{
-    text-transform: uppercase;
+    text-transform:capitalize;
     
   }
   
@@ -32,7 +32,7 @@ nav{
     margin-left: 0.75rem;
     margin-right: 0.75rem;
     color: black ;
-    font-weight: 700;
+    font-weight: 400;
   }
   
   /* .navbar-brand{
@@ -65,7 +65,7 @@ nav{
 
 .navbar-nav li{
     padding: 0vw 2vw!important;
-    font-size: 1.5vw;
+    font-size: 2vw;
     font-family: raleway;
     
     
@@ -141,7 +141,7 @@ nav{
     justify-content: space-between;
 }
 
-  @media(max-width: 768px){
+  @media(max-width: 334px){
     /* .navbar-brand{
       width: 7rem;
     } */
@@ -157,4 +157,16 @@ nav{
   @media (min-width:334px) and (max-width:991px) {
     .navbar{box-shadow:0px 0px 0px 0px rgba(0, 0, 0, 0);}
 }
-  
+/* #dropdinitiative{
+  margin-top: 2vw;
+}
+
+#initiatesetter{
+  margin-top: -2vw;
+  padding-top: 2vw!important;
+
+} */
+ /* #dropdinitiative{
+ width: 21.5vw;
+ margin-left: -1.5vw;
+} */
