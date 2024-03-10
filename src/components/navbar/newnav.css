@@ -26,6 +26,9 @@ nav{
   nav ul li{
     text-transform: uppercase;
   }
+  .navTop{
+    width: 100%;
+  }
   
   .navbar-nav > li > a {
     margin-left: 0.75rem;
