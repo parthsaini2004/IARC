@@ -1,11 +1,192 @@
-.abt{padding: 2vw 2vw;min-height: 70vw; min-width: 30vw;box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);margin: 4vw;border-radius: 1vw;}
-.abt p{font-size: 4vw;color: rgb(8,77,121);text-align: center;padding-bottom: 3vw;}
-.abttt {padding: 2vw 2vw;min-height: 40vw; min-width: 30vw;box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);margin: 4vw;border-radius: 1vw;}
-.abttt p{font-size: 4vw;color: rgb(8,77,121);text-align: center;padding-bottom: 3vw;justify-content:space-evenly;}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-@media only screen and (max-width: 1000px){
-.in-content {
-    font-size: 3.75vw;
-    line-height: 4.05vw;
+body{
+    overflow-x: hidden;
 }
+.AboutContainer{
+width: 100vw;
+padding: 5%;
+}
+.AboutBox-Heading1{
+    color: #094D7A;
+    font-family: Crimson Text;
+    font-size: 42px;
+    font-style: normal;
+    font-weight:bold;
+    line-height: normal;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.AboutBox1{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 38.4px 0px rgba(0, 0, 0, 0.10);
+    padding: 5%;
+}
+.AboutBox-Content1{
+    width: 100%;
+    height: 100%;
+    padding-top: 1%;
+    p{
+        font-size: 27px;
+        text-align: justify;
+        /* font-weight: bold; */
+        /* font-style:Regular; */
+        /* font-family: Raleway;
+        font-weight: 300; */
+    }
+}
+.AboutBox-Heading2{
+    color: #094D7A;
+    font-family: Crimson Text;
+    font-size: 42px;
+    font-style: normal;
+    font-weight:bold;
+    line-height: normal;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.AboutBox2{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 38.4px 0px rgba(0, 0, 0, 0.10);
+    padding: 5%;
+    margin-top: 5%;
+}
+.AboutBox-Content2{
+    width: 100%;
+    height: 100%;
+    padding-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 27px;
+    flex-direction: column;
+}
+.joinimg {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-top: 2%;
+
+}
+
+.joinimg a img:hover {
+    opacity: 0.5;
+}
+
+.joinimg a img {
+    width: 20vw;
+    height: auto;
+}
+
+@media screen and (max-width:1024px){
+    .AboutBox-Heading1{
+        font-size: 36px;
+    }
+    .AboutBox-Content1{
+        p{
+            font-size: 20px;
+        }
+    }
+    .AboutBox-Heading2{
+        font-size: 36px;
+    }
+    .AboutBox-Content2{
+        font-size: 20px;
+    }
+    .joinimg a img {
+        width: 25vw;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:650px){
+    .AboutBox-Heading1{
+        font-size: 32px;
+    }
+    .AboutBox-Content1{
+        p{
+            font-size: 16px;
+        }
+    }
+    .AboutBox-Heading2{
+        font-size: 32px;
+    }
+    .AboutBox-Content2{
+        font-size: 16px;
+    }
+    .joinimg {
+        margin-top: 5%;  
+      }
+    .joinimg a img {
+        width: 35vw;
+        height: auto;
+    }
+}
+@media screen and (max-width:450px){
+    .AboutBox-Heading1{
+        font-size: 30px;
+    }
+    .AboutBox-Content1{
+        p{
+            font-size: 14px;
+        }
+    }
+    .AboutBox-Heading2{
+        font-size: 30px;
+    }
+    .AboutBox-Content2{
+        font-size: 14px;
+    }
+    .joinimg a img {
+        width: 45vw;
+        height: auto;
+    }
+}
+@media screen and (max-width:350px){
+    .AboutBox-Heading1{
+        font-size: 27px;
+    }
+    .AboutBox-Content1{
+        p{
+            font-size: 12px;
+        }
+    }
+    .AboutBox-Heading2{
+        font-size: 27px;
+    }
+    .AboutBox-Content2{
+        font-size: 12px;
+    }
+    .joinimg {
+        justify-content: center;
+        margin-top: 6%;
+      
+      }
+      .joinimg a img {
+          width: 50vw;
+          height: auto;
+      }
+}
+@media screen and (max-width:300px){
+
+    .AboutBox-Heading2{
+        font-size: 22px;
+    }
+    .joinimg a img {
+        width: 60vw;
+        height: auto;
+    }
 }
