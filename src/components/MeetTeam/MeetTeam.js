@@ -23,10 +23,10 @@ export const MeetTeam = () => {
           <div className="teamCard">
             <img src={image1} />
             <nmc className="nameCard">
-              <h2>Pawanhaari Mittal</h2>
-              <h3>Secretary</h3>
-              <h5>email</h5>
-              <h5>+91 7728986489</h5>
+              <name>Pawanhaari Mittal</name>
+              <por>Secretary</por>
+              <contact>email</contact>
+              <contact>+91 7728986489</contact>
               <conn>
                 <img src={linked} />
                 <img src={insta} />
@@ -39,10 +39,10 @@ export const MeetTeam = () => {
           <div className="teamCard">
             <img src={image2} />
             <nmc className="nameCard">
-              <h2>Sanya Singh</h2>
-              <h3>Additional Secretary</h3>
-              <h5>email</h5>
-              <h5>phone number</h5>
+              <name>Sanya Singh</name>
+              <por>Additional Secretary</por>
+              <contact>email</contact>
+              <contact>phone number</contact>
               <conn>
                 <img src={linked} />
                 <img src={insta} />
@@ -52,10 +52,10 @@ export const MeetTeam = () => {
           <div className="teamCard">
             <img src={image3} />
             <nmc className="nameCard">
-              <h2>Anand Seshadri</h2>
-              <h3>Additional Secretary</h3>
-              <h5>email</h5>
-              <h5>phone number</h5>
+              <name>Anand Seshadri</name>
+              <por>Additional Secretary</por>
+              <contact>email</contact>
+              <contact>phone number</contact>
               <conn>
                 <img src={linked} />
                 <img src={insta} />
@@ -68,10 +68,10 @@ export const MeetTeam = () => {
           <div className="teamCard ">
             <img src={image4} />
             <nmc className="nameCard">
-              <h2>Krishna Verma</h2>
-              <h3>Joint Secretary (Operations)</h3>
-              <h5>email</h5>
-              <h5>phone number</h5>
+              <name>Krishna Verma</name>
+              <por>Joint Secretary (Operations)</por>
+              <contact>email</contact>
+              <contact>phone number</contact>
               <conn>
                 <img src={linked} />
                 <img src={insta} />
@@ -81,10 +81,10 @@ export const MeetTeam = () => {
           <div className="teamCard">
             <img src={image5} />
             <nmc className="nameCard">
-              <h2>Saurav Kumar</h2>
-              <h3>Joint Secretary (Operations)</h3>
-              <h5>email</h5>
-              <h5>phone number</h5>
+              <name>Saurav Kumar</name>
+              <por>Joint Secretary (Operations)</por>
+              <contact>email</contact>
+              <contact>phone number</contact>
               <conn>
                 <img src={linked} />
                 <img src={insta} />
@@ -94,10 +94,10 @@ export const MeetTeam = () => {
           <div className="teamCard">
             <img src={image6} />
             <nmc className="nameCard">
-              <h2>Shivam Ojha</h2>
-              <h3>Joint Secretary (Editorial)</h3>
-              <h5>email</h5>
-              <h5>phone number</h5>
+              <name>Shivam Ojha</name>
+              <por>Joint Secretary (Editorial)</por>
+              <contact>email</contact>
+              <contact>phone number</contact>
               <conn>
                 <img src={linked} />
                 <img src={insta} />
@@ -107,10 +107,10 @@ export const MeetTeam = () => {
           <div className="teamCard">
             <img src={image7} />
             <nmc className="nameCard">
-              <h2>Abhinav Goyal</h2>
-              <h3>Joint Secretary (Editorial)</h3>
-              <h5>email</h5>
-              <h5>phone number</h5>
+              <name>Abhinav Goyal</name>
+              <por>Joint Secretary (Editorial)</por>
+              <contact>email</contact>
+              <contact>phone number</contact>
               <conn>
                 <img src={linked} />
                 <img src={insta} />
@@ -120,10 +120,10 @@ export const MeetTeam = () => {
           <div className="teamCard">
             <img src={image8} />
             <nmc className="nameCard">
-              <h2>Paridhi Jain</h2>
-              <h3>Joint Secretary (Design)</h3>
-              <h5>email</h5>
-              <h5>phone number</h5>
+              <name>Paridhi Jain</name>
+              <por>Joint Secretary (Design)</por>
+              <contact>email</contact>
+              <contact>phone number</contact>
               <conn>
                 <img src={linked} />
                 <img src={insta} />
@@ -133,10 +133,10 @@ export const MeetTeam = () => {
           <div className="teamCard">
             <img src={image9} />
             <nmc className="nameCard">
-              <h2>Sagar Kharat</h2>
-              <h3>Joint Secretary (Video Editing)</h3>
-              <h5>email</h5>
-              <h5>phone number</h5>
+              <name>Sagar Kharat</name>
+              <por>Joint Secretary (Video Editing)</por>
+              <contact>email</contact>
+              <contact>phone number</contact>
               <conn>
                 <img src={linked} />
                 <img src={insta} />
@@ -149,10 +149,10 @@ export const MeetTeam = () => {
           <div className="teamCard">
             <img src={image10} />
             <nmc className="nameCard">
-              <h2>Krishna Gupta</h2>
-              <h3>Joint Secretary (Web-D)</h3>
-              <h5>email</h5>
-              <h5>phone number</h5>
+              <name>Krishna Gupta</name>
+              <por>Joint Secretary (Web-D)</por>
+              <contact>email</contact>
+              <contact>phone number</contact>
               <conn>
                 <img src={linked} />
                 <img src={insta} />
@@ -162,10 +162,10 @@ export const MeetTeam = () => {
           <div className="teamCard">
             <img src={image11} />
             <nmc className="nameCard">
-              <h2>Prachi Singh</h2>
-              <h3>Joint Secretary (Web-D)</h3>
-              <h5>email</h5>
-              <h5>phone number</h5>
+              <name>Prachi Singh</name>
+              <por>Joint Secretary (Web-D)</por>
+              <contact>email</contact>
+              <contact>phone number</contact>
               <conn>
                 <img src={linked} />
                 <img src={insta} />

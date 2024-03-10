@@ -272,10 +272,10 @@ const Homepage = () => {
             <div className="teamCard hmtcard">
               <img className="hmimg" src={image1} />
               <nmchome className="nameCard namhm">
-                <h2>Pawanhaari Mittal</h2>
-                <h3>Secretary</h3>
-                <h5>email</h5>
-                <h5>+91 7728986489</h5>
+                <name>Pawanhaari Mittal</name>
+                <por>Secretary</por>
+                <contact>email</contact>
+                <contact>+91 7728986489</contact>
                 <conn>
                   <img src={linked} />
                   <img src={insta} />
@@ -288,10 +288,10 @@ const Homepage = () => {
             <div className="teamCard hmtcard">
               <img className="hmimg" src={image2} />
               <nmchome className="nameCard namhm">
-                <h2>Sanya Singh</h2>
-                <h3>Additional Secretary</h3>
-                <h5>email</h5>
-                <h5>phone number</h5>
+                <name>Sanya Singh</name>
+                <por>Additional Secretary</por>
+                <contact>email</contact>
+                <contact>phone number</contact>
                 <conn>
                   <img src={linked} />
                   <img src={insta} />
@@ -301,10 +301,10 @@ const Homepage = () => {
             <div className="teamCard hmtcard">
               <img className="hmimg" src={image3} />
               <nmchome className="nameCard namhm">
-                <h2>Anand Seshadri</h2>
-                <h3>Additional Secretary</h3>
-                <h5>email</h5>
-                <h5>phone number</h5>
+                <name>Anand Seshadri</name>
+                <por>Additional Secretary</por>
+                <contact>email</contact>
+                <contact>phone number</contact>
                 <conn>
                   <img src={linked} />
                   <img src={insta} />
