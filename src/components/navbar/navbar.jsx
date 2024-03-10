@@ -167,7 +167,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 function Navbar() {
     return (
         <>
-        <img src={navTop} className='navTop'/>
+        <img src={navTop} className='navTop' style={{width:'100%',height:'5.20vw'}}/>
         <div className="navmain" id="mainnav">
         <nav className="navbar navbar-expand-lg fixed-top">
             <div className="container">
@@ -182,7 +182,7 @@ function Navbar() {
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li className="nav-item ">
                             {/* <a smooth={true} duration={100} to="welcome" className="nav-link" href="/" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Home <span className="sr-only"></span></a> */}
-                            <a smooth={true} duration={100}  className="dropdown-item" href="/" >home</a>
+                            <a smooth={true} duration={100}  className="dropdown-item" href="/" >Home</a>
                         </li>
                         <li className="nav-item">
                             <a smooth={true} duration={100} to="gallery" offset={-110} className="nav-link" href="#" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Gallery</a>
@@ -190,8 +190,8 @@ function Navbar() {
                        
                         <li className="nav-item dropdown padd dropd">
                             <a smooth={true} duration={100} to="events" offset={-110} className="nav-link" href="#" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Initiatives</a>
-                            <ul className="dropdown-menu" id="dropdinitiative" aria-labelledby="dropdownMenuButton">
-    <li><a id="initiatesetter" className="dropdown-item" href="/act">Alumni Carrer Talk</a></li>
+                            <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <li><a className="dropdown-item" href="/act">Alumni Carrer Talk</a></li>
      <li><a className="dropdown-item" href="/class-song">Class Song</a></li>
      <li><a className="dropdown-item" href="/mock-interviews">Mock Interview</a></li>
      <li><a className="dropdown-item" href="/r-land">R-Land Memoirs</a></li>

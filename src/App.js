@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './components/navbar/navbar';
+// import Navbar from './components/navbar/navbar';
 import Homepage from './components/homepage/homepage';
 import Act from './components/initiatives/Act';
 import MockInterviews from './components/initiatives/Mock-interviews';
@@ -15,12 +15,14 @@ import { MeetTeam } from './components/MeetTeam/MeetTeam';
 import Contactus from './components/contactus/contactus';
 
 import Aboutus from './components/aboutus/aboutus';
+import Navbariarc from './components/navbar/navbariarc';
 
 function App() {
   return (
     <>
       <BrowserRouter>
-        <Navbar />
+        {/* <Navbar /> */}
+        <Navbariarc />
         
 
         <Routes>
