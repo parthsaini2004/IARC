@@ -50,8 +50,8 @@
     align-items: center;
     justify-content: center;
 }
-.nameCard h2{
-    padding-top: 7px;
+.nameCard name{
+    /* padding-top: 3px; */
     font-family: Roboto;
 font-size: 18px;
 /* font-weight: 700; */
@@ -59,7 +59,7 @@ font-size: 18px;
 /* letter-spacing: 0em; */
 /* text-align: center; */
 }
-.nameCard h3{
+.nameCard por{
     font-family: Roboto;
 font-size: 14px;
 font-weight: 100;
@@ -69,7 +69,7 @@ text-align: center; */
 }
 
 /*for hover effects*/
-.cardbox h5{
+.cardbox contact{
     display: none;
     font-family: Roboto;
 font-size: 12px;
@@ -83,7 +83,7 @@ text-align: center;
     transition: height 0.3s linear;
     /* transition: background-color 0.3s linear; */
 }
-.cardbox .teamCard:hover h5 {
+.cardbox .teamCard:hover contact {
     display: inline;
 }
 
