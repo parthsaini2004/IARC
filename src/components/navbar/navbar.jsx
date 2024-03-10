@@ -81,7 +81,7 @@ import navTop from './Frame 1411.png';
 
 // import './Navbar.css'
 // import '../navbar/navbar.css';
-import '../navbar/newnav.css';
+// import '../navbar/newnav.css';
 import {Link} from "react-scroll";
 
 // REACT FONT AWESOME IMPORTS
