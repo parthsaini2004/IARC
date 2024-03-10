@@ -1,0 +1,12 @@
+
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+  .dropd a{text-decoration: none;color: rgba(0, 0, 0, 0.65);}
+  .paddt{padding-top: 1vw;}
