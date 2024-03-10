@@ -14,8 +14,12 @@ import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 import { MeetTeam } from './components/MeetTeam/MeetTeam';
 import Contactus from './components/contactus/contactus';
 
+
 import Aboutus from './components/aboutus/aboutus';
 import Navbariarc from './components/navbar/navbariarc';
+import AboutUs from './components/AboutUs/AboutUs';
+import Gallery from './components/Gallery/Gallery';
+
 
 function App() {
   return (
@@ -28,6 +32,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Homepage />} />
           <Route path='/act' element={<Act />} />
+          <Route path='/aboutus' element={<AboutUs />} />
+          <Route path='/gallery' element={<Gallery />} />
           <Route path='/mock-interviews' element={<MockInterviews />} />
           <Route path='/class-song' element={<ClassSong />} />
           <Route path='/rainzo' element={<Rainzo />} />
@@ -36,7 +42,6 @@ function App() {
           <Route path='/legacy-thoughts' element={<LegacyThoughts />} />
           <Route path='/alumini-podcasts' element={<AluminiPodcasts />} />
           <Route path='/team' element={<MeetTeam />} />
-          <Route path='/aboutus' element={<Aboutus />} />
 
         </Routes>
         <Contactus />

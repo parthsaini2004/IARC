@@ -183,9 +183,13 @@ function Navbar() {
                         <li className="nav-item ">
                             {/* <a smooth={true} duration={100} to="welcome" className="nav-link" href="/" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Home <span className="sr-only"></span></a> */}
                             <a smooth={true} duration={100}  className="dropdown-item" href="/" >Home</a>
+
+                            <a smooth={true} duration={100} to="welcome" className="nav-link" href="/" >Home <span className="sr-only"></span></a>
+
                         </li>
                         <li className="nav-item">
-                            <a smooth={true} duration={100} to="gallery" offset={-110} className="nav-link" href="#" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Gallery</a>
+                            <a 
+                            smooth={true} duration={100}  offset={-110} className="nav-link" href="/gallery" >Gallery</a>
                         </li>
                        
                         <li className="nav-item dropdown padd dropd">
@@ -195,23 +199,21 @@ function Navbar() {
      <li><a className="dropdown-item" href="/class-song">Class Song</a></li>
      <li><a className="dropdown-item" href="/mock-interviews">Mock Interview</a></li>
      <li><a className="dropdown-item" href="/r-land">R-Land Memoirs</a></li>
-     <li><a className="dropdown-item" href="/legacy-thoughts">Legacy Thoughts</a></li>
+   
      <li><a className="dropdown-item" href="/rainzo">Rainzo</a></li>
-     <li><a className="dropdown-item" href="/alumini-bigwigs">Alumni Bigwigs</a></li>
+    
      <li><a className="dropdown-item" href="/alumini-podcasts">Alum Podcast</a></li>
     
    </ul>
                         </li>
                         <li className="nav-item">
-                            {/* <a  smooth={true} duration={100} to="teamm" offset={-110} className="nav-link" href="/teamm" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Team</a> */}
-                            <a smooth={true} duration={100}  className="dropdown-item" href="/team" >Team</a>
+                            <a  smooth={true} duration={100} to="teamm" offset={-110} className="nav-link" href="/team" >Team</a>
                         </li>
                         {/* <li className="nav-item">
                             <Link smooth={true} duration={100} to="gallery" offset={-110} className="nav-link" href="#" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Gallery</Link>
                         </li> */}
                         <li className="nav-item">
-                        
-                            <a smooth={true} duration={100}  className="dropdown-item" href="/aboutus" >About Us</a>
+                            <a smooth={true} duration={100}  offset={-110} className="nav-link" href="/aboutus" >About Us</a>
                         </li>
                     </ul>
                 </div>

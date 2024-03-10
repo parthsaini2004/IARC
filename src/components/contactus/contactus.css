@@ -4,6 +4,7 @@
     /* background: #F3F3F3; */
     background-color:rgb(8,77,121);
     
+    background:#094D7A;
   }
   
   .heading{
@@ -29,12 +30,12 @@
     }
   
     .contact-info h3{
-      color:black;
+      color:whitesmoke;
       margin-top: 16px;
     }
   
     .contact-info p{
-      color: black;
+      color: whitesmoke;
     }
     
     .contact input, .contact textarea{
@@ -43,7 +44,7 @@
       resize: none;
       border: 0.15rem solid #AAAAAA;
       border-radius: 0.5rem ;
-      color: black;
+      color: whitesmoke;
       font-size: larger;
       outline: 0 !important;
       box-shadow: none !important;
@@ -58,7 +59,7 @@
       background: transparent;
       border: 0.2rem solid #AAAAAA;
       background-color: #F3F3F3;
-      color:black;
+      color:whitesmoke;
       font-size: larger;
     }
     
@@ -106,6 +107,7 @@
     
     .text-center{
       color: white;
+      margin:30px 0;
     }
   
     .text-center ::placeholder{

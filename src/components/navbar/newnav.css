@@ -24,15 +24,17 @@ nav{
   }
   
   nav ul li{
-    text-transform:capitalize;
-    
+    text-transform: uppercase;
+  }
+  .navTop{
+    width: 100%;
   }
   
   .navbar-nav > li > a {
     margin-left: 0.75rem;
     margin-right: 0.75rem;
     color: black ;
-    font-weight: 400;
+    /* font-weight: 700; */
   }
   
   /* .navbar-brand{
@@ -65,7 +67,7 @@ nav{
 
 .navbar-nav li{
     padding: 0vw 2vw!important;
-    font-size: 2vw;
+    font-size: 1.3vw;
     font-family: raleway;
     
     
