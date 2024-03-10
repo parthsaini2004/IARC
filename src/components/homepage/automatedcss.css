@@ -9,9 +9,12 @@
     cursor: pointer;
     /* margin-right: 2vw;
     margin-left: 2vw; */
-    background-color: rgba(0,0,0,0);
-    border: 1px solid #fff;
-    border-radius: 1VW;
+    /* background-color: rgba(0,0,0,0); */
+    /* border: 1px solid rgba(8,77,121,0.4); */
+    border: 1px solid #B4D8E6;
+    /* border-radius: 1VW; */
+    /* border-color: rgb(8,77,121); */
+    background-color: #B4D8E6;
 }
 
 .carousel-indicators .active {
@@ -20,6 +23,12 @@
     width: 1.1VW;
     height: 1.1VW;
     margin: 0;
-    background-color: #fff;
+    /* background-color: #fff; */
+    /* background-color: rgb(8,77,121); */
+    border: 1px solid #094D7A;
+    /* border-radius: 1VW; */
+    /* border-color: rgb(8,77,121); */
+    background-color: #094D7A;
+    
 }
 #margcenter{margin:0vw 2vw;}
