@@ -3,6 +3,8 @@
 // import {Link} from 'react-router-dom';
 import navTop from './Frame 1411.png';
 
+
+
 // const Navbar = () => {
 //     return (
 //         <>
@@ -169,6 +171,7 @@ function Navbar() {
         <div className="navmain" id="mainnav">
         <nav className="navbar navbar-expand-lg fixed-top">
             <div className="container">
+                
                 <a className="navbar-brand" href="#">
                 {/* <img className="logo" src={navTop} alt="logo..." /> */}
                 </a>
@@ -187,8 +190,8 @@ function Navbar() {
                        
                         <li className="nav-item dropdown padd dropd">
                             <a smooth={true} duration={100} to="events" offset={-110} className="nav-link" href="#" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Initiatives</a>
-                            <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <li><a className="dropdown-item" href="/act">Alumni Carrer Talk</a></li>
+                            <ul className="dropdown-menu" id="dropdinitiative" aria-labelledby="dropdownMenuButton">
+    <li><a id="initiatesetter" className="dropdown-item" href="/act">Alumni Carrer Talk</a></li>
      <li><a className="dropdown-item" href="/class-song">Class Song</a></li>
      <li><a className="dropdown-item" href="/mock-interviews">Mock Interview</a></li>
      <li><a className="dropdown-item" href="/r-land">R-Land Memoirs</a></li>
