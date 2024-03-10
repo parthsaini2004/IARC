@@ -167,7 +167,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 function Navbar() {
     return (
         <>
-        <img src={navTop} className='navTop' style={{width:'100%',height:'5.20vw'}}/>
+        <img src={navTop} className='navTop'/>
         <div className="navmain" id="mainnav">
         <nav className="navbar navbar-expand-lg fixed-top">
             <div className="container">
