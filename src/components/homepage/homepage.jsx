@@ -26,6 +26,10 @@ import othermem from "./otherteam.png";
 import linked from "../MeetTeam/teamImages/LinkedIn.png";
 import insta from "../MeetTeam/teamImages/Instagram.png";
 
+
+import AutomatedCarousel from '../homepage/automatedcarousel';
+
+
 const Homepage = () => {
   return (
     <>
@@ -80,7 +84,7 @@ const Homepage = () => {
   </button>
 </div> */}
 
-        <div id="carouselExampleIndicators" className="carousel slide">
+        {/* <div id="carouselExampleIndicators" className="carousel slide">
           <div className="carousel-indicators">
             <button
               type="button"
@@ -138,10 +142,85 @@ const Homepage = () => {
             ></span>
             <span className="visually-hidden">Next</span>
           </button>
-        </div>
+        </div> */}
+
+
+
+
+{/* <div className="container">
+  <h2>Carousel Example</h2>  
+  <div id="myCarousel" className="carousel slide" data-ride="carousel">
+  
+    <ol className="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    
+    <div className="carousel-inner">
+      <div className="item active">
+        <img src={imgphotoh} />
+      </div>
+
+      <div className="item">
+      <img src={imgphotoh} />
+      </div>
+    
+      <div className="item">
+      <img src={imgphotoh} />
+      </div>
+    </div>
+
+    
+    <a className="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span className="glyphicon glyphicon-chevron-left"></span>
+      <span className="sr-only">Previous</span>
+    </a>
+    <a className="right carousel-control" href="#myCarousel" data-slide="next">
+      <span className="glyphicon glyphicon-chevron-right"></span>
+      <span className="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+ */}
+
+
+<AutomatedCarousel />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         <div className="aboutus">
           <p>About Us</p>
+          <div className="leftspaceabtus sizeread">
+            <a href="">
+              <img src={readmore} alt="" />
+            </a>
+          </div>
           <div className="aboutustext center ">
             The Institute Alumni Relations Cell, affectionately referred to as
             IARC serves as a connecting bridge between the expansive alumni
@@ -153,11 +232,7 @@ const Homepage = () => {
             through a myriad of events and programmes that IARC conducts with
             unwavering dedication.
           </div>
-          <div className="leftspace sizeread">
-            <a href="">
-              <img src={readmore} alt="" />
-            </a>
-          </div>
+         
         </div>
 
         <div className="galleryteamiarc">

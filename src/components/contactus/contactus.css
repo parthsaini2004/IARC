@@ -1,7 +1,9 @@
    
  .contact-container{
     padding: 2rem;
-    background: #F3F3F3;
+    /* background: #F3F3F3; */
+    background-color:rgb(8,77,121);
+    
   }
   
   .heading{
@@ -74,7 +76,8 @@
     .contact-btn{
       font-size: larger;
       border-radius: 25px;
-      background-color:#49A3B3;
+      /* background-color:rgb(8,77,121); */
+      background-color: #49A3B3;
       color: white;
       padding: 5px 30px 5px 30px;
       margin: 1% 5% 0 35%;
@@ -166,3 +169,5 @@
       padding: 1.3rem;
     }
   }
+
+  .marginsend{margin-top: 3vw;}
