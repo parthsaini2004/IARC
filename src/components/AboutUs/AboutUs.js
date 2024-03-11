@@ -6,7 +6,7 @@ function AboutUs() {
   return (
     <div className="AboutContainer">
       <div className="AboutBox1">
-        <div className="AboutBox-Heading1">About US</div>
+        <div className="AboutBox-Heading1">About Us</div>
         <div className="AboutBox-Content1">
           <p>IARC stands for the Institute Alumni Relations Cell, which is dedicated to fostering connections and bridging the gap between the alma mater and esteemed alumni. Operating under the aegis of the Dean of Resources and Alumni, IARC has successfully built a vibrant student-alumni community and has undertaken numerous initiatives to fulfill its mission.
           </p>

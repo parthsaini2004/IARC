@@ -1,7 +1,36 @@
-.navbar{width: 100%;border-radius: 0vw;box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);background-color: white!important;margin: 0vw!important;}
-.navbar-nav-scroll a{font-size: 2vw;margin: 0vw 4.5vw;}
-.navbar-nav-scroll{margin-left: 5vw;}
+.navbar{width: 100%;
+    min-height:10px;
+    
+    border-radius: 0vw;box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);background-color: white!important;margin: 0vw!important;}
+.navbar-nav-scroll a{font-size: 1.6vw;  
+}
+.navbar-item-position{
+    display: flex;
+    justify-content: space-around;
+    margin:0 5vw;
+}
+/* .navbar-nav-scroll{margin-left: 5vw;} */
 body{margin: 0vw!important;}
+.dropdown-menu{
+    width:20vw;
+  
+}
+
+.dropdown-toggle::after{
+    display: none;
+}
+
+
+.effects:hover{
+    background-color:transparent;
+    
+}
+
+.fontStyles:hover{
+    color:#B4D8E6;
+}
+
+
 
 /* @media (min-width: 996px){
     .collapse:not(.show) {
@@ -64,8 +93,7 @@ body{margin: 0vw!important;}
     } */
 
 
-element.style {
-}
+
 /* @media (min-width: 992px){
 .navbar-collapse.collapse {
     
@@ -77,6 +105,8 @@ element.style {
         display: none;
     }
 } */
+
+
 
 @media (min-width: 768px){
 .navbar-collapse.collapse {
@@ -90,13 +120,16 @@ element.style {
 }
 .navbar-nav {
     float: none;
-    margin: 10vw;
+    /* margin: 10vw; */
 }
 .dropd{
     padding-top: 1vw;
 }
 
+
 }
+
+
 
 @media (min-width: 992px) and (max-width:3400px){
     .navbar-collapse.collapse {
@@ -110,6 +143,19 @@ element.style {
     }
    
     }
+
+    @media (max-width:768px){
+        .dropdown-menu{
+            width:70vw;
+        }
+        .navbar-nav-scroll a{
+            font-size: 2vw; 
+             
+        }
+        .navbar{
+            padding:0;
+        }
+    }
     @media (min-width:785px ) and (max-width:992px){
         
         .dropd{
@@ -122,12 +168,20 @@ element.style {
     .dropdown:hover>.dropdown-menu {
         display: block;
       }
+      @media (max-width:768px){
+      .custom-dropdown{
+        width:70vw;
+        
+      }
+      }
       
       .dropdown>.dropdown-toggle:active {
         /*Without this, clicking will make it sticky*/
           pointer-events: none;
       }
       .dropd a{text-decoration: none;color: rgba(0, 0, 0, 0.65);}
+
+      
       @media (min-width: 768px){
 .navbar-nav>li>a {
     padding-top: 0px;

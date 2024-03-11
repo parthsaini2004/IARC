@@ -217,8 +217,8 @@ const Homepage = () => {
         <div className="aboutus">
           <p>About Us</p>
           <div className="leftspaceabtus sizeread">
-            <a href="">
-              <img src={readmore} alt="" />
+            <a href="/aboutus">
+              <img src={readmore} alt="about us" />
             </a>
           </div>
           <div className="aboutustext center ">
@@ -261,8 +261,8 @@ const Homepage = () => {
             <Profileimg imgphoto={pic13} />
           </div>
           <div className="leftspace sizeread">
-            <a href="">
-              <img src={seemore} alt="" />
+            <a href="/gallery">
+              <img src={seemore} alt="seemore" />
             </a>
           </div>
         </div>
