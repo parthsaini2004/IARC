@@ -35,7 +35,7 @@ function Gallery() {
   return (
     <div className="Gallery-Box">
       <div className="Gallery-Main-Box">
-        <div className="Gallery-Heading">Gallery</div>
+        <div className="Gallery-Heading"><p>Gallery</p></div>
         {/* row1 */}
         <div className="Gallery-Row1">
           <div className="ImgBox">

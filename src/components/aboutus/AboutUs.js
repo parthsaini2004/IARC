@@ -1,5 +1,6 @@
 import React from 'react'
 import './aboutus.css'
+import picabout from "../AboutUs/Frame 1421.png";
 // import JOIN from '../homepage/Frame 14212.png';
 
 function AboutUs() {
@@ -42,7 +43,7 @@ function AboutUs() {
           In addition to our alumni network, we boast an IARC community comprising over 1000 students. This community serves as a platform for students to stay connected with us and with each other. Within this community, participants share valuable opportunities and information for mutual benefit
          
         </div>
-        {/* <div className="joinimg" ><a href="" ><img src={JOIN} alt="" /></a></div> */}
+        <div className="joinimg" ><a href="https://chat.whatsapp.com/GE0emwFkmdY8Ungwfyb0iR" ><img src={picabout} alt="" /></a></div>
       </div>
     </div>
   )

@@ -46,7 +46,7 @@ const Navbariarc = () => {
     
     <>
         <div>
-        <img src={navTop} className='navTop' style={{width:'100%',height:'5.20vw'}} alt="logo"/>
+        <img src={navTop} className='navTop'  alt="logo"/>
 <Navbar bg="dark" variant={"dark"} expand="lg" expanded={expanded} >
     {/* <Navbar.Brand href="#">Navbar Demo Arjun Codes</Navbar.Brand> */}
     <Navbar.Toggle id="margleft" aria-controls="navbarScroll" onClick={()=>setExpanded(!expanded)}/>

@@ -25,11 +25,11 @@ export const MeetTeam = () => {
             <nmc className="nameCard">
               <name>Pawanhaari Mittal</name>
               <por>Secretary</por>
-              <contact>email</contact>
+              <contact>pawanhaari_m@cy.iitr.ac.in </contact>
               <contact>+91 7728986489</contact>
               <conn>
-                <img src={linked} />
-                <img src={insta} />
+              <a href="https://www.linkedin.com/in/pawanhaari-mittal-937383210"> <img src={linked} /></a>
+                <a href="ttps://www.instagram.com/pawanhaarimittal/"><img src={insta} /></a>
               </conn>
             </nmc>
           </div>
@@ -41,11 +41,11 @@ export const MeetTeam = () => {
             <nmc className="nameCard">
               <name>Sanya Singh</name>
               <por>Additional Secretary</por>
-              <contact>email</contact>
-              <contact>phone number</contact>
+              <contact>s_singh2@ch.iitr.ac.in</contact>
+              <contact>+91 9696631793</contact>
               <conn>
-                <img src={linked} />
-                <img src={insta} />
+                <a href="https://www.linkedin.com/in/sanya-singh-31b515226"> <img src={linked} /></a>
+                <a href="https://www.instagram.com/i_sanyasinghh/"><img src={insta} /></a>
               </conn>
             </nmc>
           </div>
@@ -54,11 +54,11 @@ export const MeetTeam = () => {
             <nmc className="nameCard">
               <name>Anand Seshadri</name>
               <por>Additional Secretary</por>
-              <contact>email</contact>
-              <contact>phone number</contact>
+              <contact>a_seshadri@ch.iitr.ac.in</contact>
+              <contact>+91 8104797537</contact>
               <conn>
-                <img src={linked} />
-                <img src={insta} />
+              <a href="https://www.linkedin.com/in/seshadri-anand-009ba1240"> <img src={linked} /></a>
+                <a href="https://www.instagram.com/quickseshh/"><img src={insta} /></a>
               </conn>
             </nmc>
           </div>
@@ -70,11 +70,11 @@ export const MeetTeam = () => {
             <nmc className="nameCard">
               <name>Krishna Verma</name>
               <por>Joint Secretary (Operations)</por>
-              <contact>email</contact>
-              <contact>phone number</contact>
+              <contact>k_verma@bt.iitr.ac.in</contact>
+              <contact>+91 7466902878</contact>
               <conn>
-                <img src={linked} />
-                <img src={insta} />
+              <a href="https://www.linkedin.com/in/krishna-verma-282b94228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"> <img src={linked} /></a>
+                <a href="https://www.instagram.com/krissnaaaa_v/"><img src={insta} /></a>
               </conn>
             </nmc>
           </div>
@@ -84,10 +84,10 @@ export const MeetTeam = () => {
               <name>Saurav Kumar</name>
               <por>Joint Secretary (Operations)</por>
               <contact>email</contact>
-              <contact>phone number</contact>
+              <contact>+91 9661304305</contact>
               <conn>
-                <img src={linked} />
-                <img src={insta} />
+              <a href="ttps://www.linkedin.com/in/sanya-singh-31b515226"> <img src={linked} /></a>
+                <a href="ttps://www.instagram.com/i_sanyasinghh/"><img src={insta} /></a>
               </conn>
             </nmc>
           </div>
@@ -96,11 +96,11 @@ export const MeetTeam = () => {
             <nmc className="nameCard">
               <name>Shivam Ojha</name>
               <por>Joint Secretary (Editorial)</por>
-              <contact>email</contact>
-              <contact>phone number</contact>
+              <contact>s_ojha1@ch.iitr.ac.in</contact>
+              <contact>+91 8557060947</contact>
               <conn>
-                <img src={linked} />
-                <img src={insta} />
+              <a href="https://www.linkedin.com/in/shivam-ojha-856402227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> <img src={linked} /></a>
+                <a href="https://www.instagram.com/chuckbones18/"><img src={insta} /></a>
               </conn>
             </nmc>
           </div>
@@ -109,11 +109,11 @@ export const MeetTeam = () => {
             <nmc className="nameCard">
               <name>Abhinav Goyal</name>
               <por>Joint Secretary (Editorial)</por>
-              <contact>email</contact>
-              <contact>phone number</contact>
+              <contact>a_goyal@ch.iitr.ac.in</contact>
+              <contact>+91 8955585983</contact>
               <conn>
-                <img src={linked} />
-                <img src={insta} />
+              <a href="https://www.linkedin.com/in/abhinav-goyal-408563233"> <img src={linked} /></a>
+                <a href="https://www.instagram.com/_abhinav528/"><img src={insta} /></a>
               </conn>
             </nmc>
           </div>
@@ -122,11 +122,11 @@ export const MeetTeam = () => {
             <nmc className="nameCard">
               <name>Paridhi Jain</name>
               <por>Joint Secretary (Design)</por>
-              <contact>email</contact>
-              <contact>phone number</contact>
+              <contact>p_jain@ch.iitr.ac.in</contact>
+              <contact>+91 9116046876</contact>
               <conn>
-                <img src={linked} />
-                <img src={insta} />
+              <a href="https://www.linkedin.com/in/paridhi-jain-ai-ml"> <img src={linked} /></a>
+                <a href="https://www.instagram.com/paridhi_j29/"><img src={insta} /></a>
               </conn>
             </nmc>
           </div>
@@ -135,11 +135,11 @@ export const MeetTeam = () => {
             <nmc className="nameCard">
               <name>Sagar Kharat</name>
               <por>Joint Secretary (Video Editing)</por>
-              <contact>email</contact>
-              <contact>phone number</contact>
+              <contact>s_kharar@cy.iitr.ac.in</contact>
+              <contact>+91 9604585421</contact>
               <conn>
-                <img src={linked} />
-                <img src={insta} />
+              <a href="https://www.linkedin.com/in/sagar-kharat-6a7a99229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> <img src={linked} /></a>
+                <a href="https://www.instagram.com/kharatsagar101/"><img src={insta} /></a>
               </conn>
             </nmc>
           </div>
@@ -152,10 +152,10 @@ export const MeetTeam = () => {
               <name>Krishna Gupta</name>
               <por>Joint Secretary (Web-D)</por>
               <contact>email</contact>
-              <contact>phone number</contact>
+              <contact>+91 7974929146</contact>
               <conn>
-                <img src={linked} />
-                <img src={insta} />
+              <a href="ttps://www.linkedin.com/in/sanya-singh-31b515226"> <img src={linked} /></a>
+                <a href="https://www.instagram.com/Krishna_gupta1455/"><img src={insta} /></a>
               </conn>
             </nmc>
           </div>
@@ -165,10 +165,10 @@ export const MeetTeam = () => {
               <name>Prachi Singh</name>
               <por>Joint Secretary (Web-D)</por>
               <contact>email</contact>
-              <contact>phone number</contact>
+              <contact>+91 8591088585</contact>
               <conn>
-                <img src={linked} />
-                <img src={insta} />
+              <a href="https://www.linkedin.com/in/sanya-singh-31b515226"> <img src={linked} /></a>
+                <a href="https://www.instagram.com/_.prachi_.26/"><img src={insta} /></a>
               </conn>
             </nmc>
           </div>
