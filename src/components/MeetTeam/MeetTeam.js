@@ -151,10 +151,10 @@ export const MeetTeam = () => {
             <nmc className="nameCard">
               <name>Krishna Gupta</name>
               <por>Joint Secretary (Web-D)</por>
-              <contact>email</contact>
+              <contact>k_gupta@cy.iitr.ac.in</contact>
               <contact>+91 7974929146</contact>
               <conn>
-              <a href="ttps://www.linkedin.com/in/sanya-singh-31b515226"> <img src={linked} /></a>
+              <a href="https://www.linkedin.com/in/krishna-gupta-6b4010263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> <img src={linked} /></a>
                 <a href="https://www.instagram.com/Krishna_gupta1455/"><img src={insta} /></a>
               </conn>
             </nmc>
@@ -164,10 +164,10 @@ export const MeetTeam = () => {
             <nmc className="nameCard">
               <name>Prachi Singh</name>
               <por>Joint Secretary (Web-D)</por>
-              <contact>email</contact>
+              <contact>p_bsingh@me.iitr.ac.in</contact>
               <contact>+91 8591088585</contact>
               <conn>
-              <a href="https://www.linkedin.com/in/sanya-singh-31b515226"> <img src={linked} /></a>
+              <a href="https://www.linkedin.com/in/prachi-singh-932367259/"> <img src={linked} /></a>
                 <a href="https://www.instagram.com/_.prachi_.26/"><img src={insta} /></a>
               </conn>
             </nmc>
