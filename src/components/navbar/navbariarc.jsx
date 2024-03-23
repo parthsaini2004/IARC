@@ -22,18 +22,18 @@ const Navbariarc = () => {
     const [showDropdown, setShowDropdown] = useState(false);
 
   const handleMouseEnter = () => {
-    if (window.innerWidth >= 500) {
+    if (window.innerWidth >= 990) {
       setShowDropdown(true);
     }
   };
   const handleMouseLeave = () => {
-    if (window.innerWidth >= 500) {
+    if (window.innerWidth >= 990) {
       setShowDropdown(false);
     }
   };
   const handleClick = () => {
-    if (window.innerWidth < 500) {
-      setShowDropdown(!showDropdown);
+    if (window.innerWidth < 990) {
+      setShowDropdown(!showDropdown)
     }
   };
   const [expanded, setExpanded] = useState(false);

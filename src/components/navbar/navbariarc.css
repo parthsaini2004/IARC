@@ -144,7 +144,7 @@ body{margin: 0vw!important;}
    
     }
 
-    @media (max-width:768px){
+    @media (max-width:990px){
         .dropdown-menu{
             width:70vw;
         }
@@ -165,9 +165,9 @@ body{margin: 0vw!important;}
         }
    
 
-    .dropdown:hover>.dropdown-menu {
+    /* .dropdown:hover>.dropdown-menu {
         display: block;
-      }
+      } */
       @media (max-width:768px){
       .custom-dropdown{
         width:70vw;
