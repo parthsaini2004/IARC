@@ -13,7 +13,7 @@ import AluminiPodcasts from './components/initiatives/AluminiPodcast';
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 import { MeetTeam } from './components/MeetTeam/MeetTeam';
 import Contactus from './components/contactus/contactus';
-import AboutUs from './components/AboutUs/AboutUs';
+import AboutUs from './components/aboutus/AboutUs';
 import Gallery from './components/Gallery/Gallery';
 
 import Navbariarc from './components/navbar/navbariarc.jsx';

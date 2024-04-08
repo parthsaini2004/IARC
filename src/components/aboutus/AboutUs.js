@@ -1,6 +1,6 @@
 import React from 'react'
 import './aboutus.css'
-import picabout from "../AboutUs/Frame 1421.png";
+import picabout from "../aboutus/Frame 1421.png";
 // import JOIN from '../homepage/Frame 14212.png';
 
 function AboutUs() {
